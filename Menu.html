@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="shortcut icon" href="image.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sevillana&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(255, 244, 219);
+        background-image: url(https://img.freepik.com/free-photo/beige-wooden-textured-flooring-background_53876-104668.jpg?t=st=1721565256~exp=1721568856~hmac=ce4c7e33cdd9303e129cecf7e46e6e4541f7b2b172f4ead33fbcd307f25f2ff3&w=996);
+      }
+
+      main {
+        max-width: 800px;
+        margin: 60px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 50px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        border-bottom: saddlebrown 10px solid;
+        border-top: saddlebrown 10px solid;
+        border-top-left-radius: 0%;
+      }
+
+      section {
+        margin-bottom: 50px;
+      }
+
+      h2 {
+        margin-top: 0%;
+        font-weight: bold;
+        font-size: 24px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      li {
+        margin-bottom: 20px;
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      li:last-child {
+        margin-top: 60px;
+        border-bottom: 5px solid saddlebrown;
+      }
+
+      img {
+        margin-bottom: 15px;
+        width: 400px;
+        height: 350px;
+        margin-right: 20px;
+        float: left;
+      }
+
+      a:hover {
+        color: burlywood;
+        font-size: large;
+        font-weight: bolder;
+      }
+
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: -10px;
+        text-align: center;
+        clear: both;
+        margin-top: 3px;
+        box-sizing: border-box;
+      }
+
+      .heading {
+        font-weight: bolder;
+        font-size: 100px;
+        /* display: flex; */
+        box-sizing: border-box;
+        color: saddlebrown;
+        background-color: #fff;
+        width: 500px;
+        margin-left: 32.5%;
+        text-shadow: 3px 3px 3px #aaa, 6px 6px 5px #666;
+        z-index: 1;
+      }
+
+      .navbar {
+        background-color: radial-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        );
+        position: fixed;
+      }
+
+      .logo {
+        z-index: 1;
+        height: 22vh;
+        width: 50%;
+        border-radius: 25%;
+        margin-left: 2%;
+        margin-top: 2%;
+        box-sizing: border-box;
+      }
+
+      a {
+        display: inline-flex;
+        margin-left: 0%;
+        color: saddlebrown;
+        margin-top: 5%;
+        font-weight: bolder;
+        font-size: 27px;
+        margin-left: 24%;
+        box-sizing: border-box;
+        text-decoration: none;
+        /* font-family: "Dancing Script", 'cursive'; */
+		text-shadow: 3px 3px 3px #aaa, 6px 6px 5px #666;
+        font-weight: bolder;
+        
+      }
+    </style>
+  </head>
+
+  <header>
+    <nav class="navbar">
+      <img class="logo" src="image.png" alt="" />
+      <a target="_blank" class="home" href="ORDER.html">* ORDER HEAD</a>
+      <a class="home" href="index.html">* HOME</a>
+    </nav>
+  </header>
+
+  <body>
+    <div class="heading" align="center">
+      <p>MENU</p>
+    </div>
+    <main>
+      <section>
+        <h2>ICED COFFEE</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/free-photo/cold-chocolate-cocktail-with-ice-cream_140725-940.jpg?t=st=1721559065~exp=1721562665~hmac=059607163d1f15096f406e7e616425c8e72396608d37aa5b8cd654c1c8a4b6ca&w=740"
+              alt="News Image 1"
+              width="300"
+              height="200"
+            />
+            <div>
+              <h3>DIET COFFEE</h3>
+              <p>Ice, sugar and coffee</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="https://img.freepik.com/free-photo/milk-shake-pina-colada-table_140725-4835.jpg?t=st=1721560747~exp=1721564347~hmac=28bf33aa024024296658b337e3442770f0ffd0031891de0ba6581c35f925780b&w=740" alt="Lemon Coffee"> -->
+            <div>
+              <h3>CHOCOLATE COFFEE</h3>
+              <p>dark-choco, sugar and milk</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="cold-brew.jpg" alt="Cold Brew"> -->
+            <div>
+              <h3>COLD BREW</h3>
+              <p>Milk with sugar</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>COFFEE LATTE</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/free-photo/milk-shake-pina-colada-table_140725-4835.jpg?t=st=1721560747~exp=1721564347~hmac=28bf33aa024024296658b337e3442770f0ffd0031891de0ba6581c35f925780b&w=740"
+              alt="Milk Latte"
+            />
+            <div>
+              <h3>MILK LATTE</h3>
+              <p>Premium milk with butter</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="flat-white.jpg" alt="Flat White"> -->
+            <div>
+              <h3>FLAT WHITE</h3>
+              <p>Milk with sugar and ice</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="cream-white.jpg" alt="Cream White"> -->
+            <div>
+              <h3>CREAM WHITE</h3>
+              <p>Milk, sugar and cream</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>CHOCOLATE COFFEE</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/free-photo/orea-milkshake-with-whipped-cream-chocolate-sauce-orea_140725-9594.jpg?t=st=1721560688~exp=1721564288~hmac=8b62e2a67fd92b137fe514627e263a9b172af839522c4e16ae3bdee00a033dbc&w=740"
+              alt="Dark Premium"
+            />
+            <div>
+              <h3>DARK PREMIUM</h3>
+              <p>Milk with chocolate</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="vanilla-cream.jpg" alt="Vanilla Cream"> -->
+            <div>
+              <h3>VANILLA CREAM</h3>
+              <p>Milk, vanilla and chocolate</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="creamy-dark.jpg" alt="Creamy Dark"> -->
+            <div>
+              <h3>CREAMY DARK</h3>
+              <p>Milk, sugar and cream</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>THREE LAYERED IRISH COFFEE</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/free-photo/cup-three-layered-coffee-dark_140725-6011.jpg?t=st=1721573355~exp=1721576955~hmac=f13222d05b865633b14607d7be9683d519c1772ed67b7e2fa4b4a510f2a37635&w=360"
+              alt="Dark Premium"
+            />
+            <div>
+              <h3>WHITE PREMIUM</h3>
+              <p>Milk with selamon</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="vanilla-cream.jpg" alt="Vanilla Cream"> -->
+            <div>
+              <h3>VANILLA CREAM</h3>
+              <p>Milk, vanilla and chocolate</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="creamy-dark.jpg" alt="Creamy Dark"> -->
+            <div>
+              <h3>CREAMY DARK</h3>
+              <p>Milk, sugar and cream</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>LEMON COLD</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/free-photo/traditional-mojito-with-ice-mint-table_140725-867.jpg?t=st=1721573782~exp=1721577382~hmac=d56ef8a9f5436ab085d50cb08e25bf6c645c10659bd06ba76fccf3e97f30a134&w=740"
+              alt="Dark Premium"
+            />
+            <div>
+              <h3>WHITE PREMIUM</h3>
+              <p>selamon</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="vanilla-cream.jpg" alt="Vanilla Cream"> -->
+            <div>
+              <h3>NEEM LEAVES</h3>
+              <p>tacco</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="creamy-dark.jpg" alt="Creamy Dark"> -->
+            <div>
+              <h3>SUGAR SYRUP</h3>
+              <p>sugar, khish-mish</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>LEMON CORD</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/free-photo/classic-cooling-mojito_140725-77.jpg?t=st=1721574134~exp=1721577734~hmac=a5d7c5c3e1791da72dea66980222bf7b7f3c36e8920c633b2048f3bdfa206628&w=360"
+              alt="Dark Premium"
+            />
+            <div>
+              <h3>WHITE PREMIUM</h3>
+              <p>selamon</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="vanilla-cream.jpg" alt="Vanilla Cream"> -->
+            <div>
+              <h3>ORANGE LEAVES</h3>
+              <p>peices, freshner</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="creamy-dark.jpg" alt="Creamy Dark"> -->
+            <div>
+              <h3>SUGAR SYRUP</h3>
+              <p>sugar, khish-mish</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>COLD COFFEE</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/free-photo/still-life-with-delicious-iced-coffee_52683-91642.jpg?t=st=1721574324~exp=1721577924~hmac=f6f4cf9168cb41d1b5d2733a3c750365804704861b71ed9a0b84e7470c6d2acf&w=360"
+              alt="Dark Premium"
+            />
+            <div>
+              <h3>WHITE PREMIUM</h3>
+              <p>selamon</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="vanilla-cream.jpg" alt="Vanilla Cream"> -->
+            <div>
+              <h3>DARK COCO</h3>
+              <p>peices, dark chocolate</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="creamy-dark.jpg" alt="Creamy Dark"> -->
+            <div>
+              <h3>SUGAR SYRUP</h3>
+              <p>sugar, khish-mish</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>COCO BLACK COFFEE</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/premium-photo/coffee-cup-beans_1339-28077.jpg?w=996"
+              alt="Dark Premium"
+            />
+            <div>
+              <h3>WHITE PREMIUM</h3>
+              <p>selamon</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="vanilla-cream.jpg" alt="Vanilla Cream"> -->
+            <div>
+              <h3>DARK COCO</h3>
+              <p>peices, dark chocolate</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="creamy-dark.jpg" alt="Creamy Dark"> -->
+            <div>
+              <h3>SYRUP</h3>
+              <p>Naatoh, Mish</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>GREEN LEMON TEA</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/free-photo/front-view-tea-herbal-concept-with-copy-space_23-2148555200.jpg?t=st=1721574670~exp=1721578270~hmac=17e27d6055f884fddf51c2836e483ea83955eef7db4df776c672717b43e1554b&w=360"
+              alt="Dark Premium"
+            />
+            <div>
+              <h3>WHITE PREMIUM</h3>
+              <p>selamon</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="vanilla-cream.jpg" alt="Vanilla Cream"> -->
+            <div>
+              <h3>LEMON</h3>
+              <p>peices</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="creamy-dark.jpg" alt="Creamy Dark"> -->
+            <div>
+              <h3>SYRUP</h3>
+              <p>Naatoh, Mish</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>JUST NORMAL TEA</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/free-photo/front-view-milk-tea-concept-with-cinnamon_23-2148555194.jpg?t=st=1721574904~exp=1721578504~hmac=d50a4afc504c6428a09706b588f56955f9d4a513d41679db1831154520d8e228&w=996"
+              alt="Dark Premium"
+            />
+            <div>
+              <h3>WHITE PREMIUM</h3>
+              <p>selamon, ferrar</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="vanilla-cream.jpg" alt="Vanilla Cream"> -->
+            <div>
+              <h3>TEA LEAVES</h3>
+              <p>peices</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="creamy-dark.jpg" alt="Creamy Dark"> -->
+            <div>
+              <h3>SYRUP</h3>
+              <p>Naatoh, kish-Mish</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>SHARMA'LATTE SPCIAL TEA</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/free-photo/cute-set-rustic-cups-high-view_23-2148316993.jpg?t=st=1721576422~exp=1721580022~hmac=88570358f4c04ba786f19433d5954ae8c06537f9f69c50983a97efdaa62e3d50&w=996"
+              alt="Dark Premium"
+            />
+            <div>
+              <h3>WHITE PREMIUM</h3>
+              <p>selamon, ferrar</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="vanilla-cream.jpg" alt="Vanilla Cream"> -->
+            <div>
+              <h3>ALL HARBAL LEAVES</h3>
+              <p>peices</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="creamy-dark.jpg" alt="Creamy Dark"> -->
+            <div>
+              <h3>SYRUP</h3>
+              <p>Naatoh, kish-Mish</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>HARBAL TEA</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/premium-photo/hot-tea-cup-old-background_200402-8775.jpg?w=996"
+              alt="Dark Premium"
+            />
+            <div>
+              <h3>WHITE PREMIUM</h3>
+              <p>selamon, ferrar</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="vanilla-cream.jpg" alt="Vanilla Cream"> -->
+            <div>
+              <h3>ALL HARBAL LEAVES</h3>
+              <p>peices</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="creamy-dark.jpg" alt="Creamy Dark"> -->
+            <div>
+              <h3>SYRUP</h3>
+              <p>Naatoh, kish-Mish</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>TAJ TEA</h2>
+        <ul>
+          <li>
+            <img
+              src="https://img.freepik.com/free-photo/side-view-black-tea-pear-shape-glass-table_141793-3600.jpg?t=st=1721575456~exp=1721579056~hmac=47cb04225a8384a189ec2c8844a05ed525a67fe0cdd000e99517aa7053711e5e&w=740"
+              alt="Dark Premium"
+            />
+            <div>
+              <h3>WHITE PREMIUM</h3>
+              <p>selamon, ferrar</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="vanilla-cream.jpg" alt="Vanilla Cream"> -->
+            <div>
+              <h3>TAJ TEA LEAVES</h3>
+              <p>peices</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+          <li>
+            <!-- <img src="creamy-dark.jpg" alt="Creamy Dark"> -->
+            <div>
+              <h3>SYRUP</h3>
+              <p>Naatoh, kish-Mish</p>
+              <p>$25.00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+
+  <footer class="footer">
+    <p>
+      <font style="font-size: 23px; font-weight: bolder">E-Mail us at: </font
+      ><a href="Deepak:info@Coffee cafe.com">theSharma'Latte@gmail.com</a>
+    </p>
+    <p>
+      <font style="font-size: 23px; font-weight: bolder">Or Call us at: </font
+      ><a href="+1234567890">+1234567890</a>
+    </p>
+
+    <p><i>&copy; 2024 Sharma'Latte, All rights are reserved.</i></p>
+  </footer>
+</html>
